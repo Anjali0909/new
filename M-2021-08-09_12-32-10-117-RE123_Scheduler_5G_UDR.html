@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Regression REPORT</title>
+<style type="text/css">
+  body, html
+  {
+    background-color: #F5F5F5;
+    font-size: 12px;
+    font-family: Verdana, Helvetica, Arial,sans-serif;
+    scrollbar-base-color: #EAEAEA; scrollbar-arrow-color: #4095CB;
+    scrollbar-3dlight-color: #93C6E7
+  }
+
+  a
+  {
+    font-family: Verdana, Helvetica, Arial;
+    font-size-adjust: none;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1B1F6A;
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+  }
+
+  a:hover
+  {
+    color: #0099dd;
+    text-decoration: underline;
+  }
+
+  table
+  {
+    font-size: 12px;
+    font-family: Verdana, Helvetica, Arial,sans-serif;
+    border-collapse: collapse;
+  }
+
+  table tr
+  {
+    background-color: #F5F5F5;
+  }
+
+  table th
+  {
+    background-color: #DFE5EF;
+  }
+  
+  h1
+  {
+    font-size: 19px;
+    color: #496980;
+    font-family: Verdana, Helvetica, Arial;
+  }
+
+  h2
+  {
+    font-size: 17px;
+    color: #597990;
+    font-family: Verdana, Helvetica, Arial;
+    font-weight: bold;
+  }
+
+  h3
+  {
+    font-size: 15px;
+    color: #597990;
+    font-family: Verdana, Helvetica, Arial;
+    font-weight: bold;
+  }
+   .red
+   {
+     background-color: #A11511;
+     color: white;
+   }
+   .red a
+   {
+     color: white;
+   }
+
+   .green
+   {
+     background-color: #C8E9C8;
+   }
+
+   .blue
+   {
+     background-color: #0433A2;
+     color: white;
+   }
+   .blue a
+   {
+     color: white;
+   }
+   
+   div.testCase {
+     border-width: 0px;
+     border-top: 2px;
+     border-style: solid;
+     border-color: black; 
+     padding-top: 0px;
+     margin-top: 40px;
+   }
+   
+  div.version
+  {
+    font-size: 10px;
+  }   
+
+  table.caseDesc, th, td
+  {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  table.caseDesc .tcTitle
+  {
+    background-color: #C9BE62;
+    font-weight: bold;
+    vertical-align: top;
+  }
+
+  table.summaryTable th
+  {
+    background-color: #FDD017;
+    font-weight: bold;
+  }
+
+  tr.odd
+  {
+  }
+
+  tr.even
+  {
+    background-color: #E0E0E0;
+  }
+
+  td.spacer
+  {
+   width: 100%;
+  }
+
+  .preformatted
+  {
+    white-space: pre-line;
+  }
+
+</style>
+</head>
+<body>
+
+<h1>Regression report</h1>
+Regression report cfg: <b><a href='..\scheduler\20.8\RE123_Scheduler_5G_UDR.xml' target='_blank'>RE123_Scheduler_5G_UDR.xml</a></b><br/>
+Timestamp of test run: <b>2021-08-09_12-32-10-117</b><br/>
+Test environment: <br/>
+pgw: 10.53.149.51<br/>
+pgwdsa: 10.53.149.52<br/>
+fedsa: 10.53.149.50<br/>
+bedsa: 10.53.149.50<br/>
+<h2>Report</h2>
+<table class="summaryTable" border=1>
+<tr><th colspan=7>Report</th></tr>
+<tr><th>Test name</th><th>Exec. Name</th><th>OK</th><th>failed</th><th>to compare</th><th>SUM</th><th>Duration</th></tr>
+<tr class="odd"><td><a href='#01'>RE123_110027_FC123_110778_UDM/SIDF_prohibit_Null_scheme</a></td><td><a href='#21.5\prohibitNullScheme01'>21.5\prohibitNullScheme</a></td><td align='center'>0</td><td align='center'>0</td><td align='center' class="blue">2</td><td align='center' >2</td><td align='center' >1.853 [s]</td></tr>
+<tr><td align="center"><b>Sum</b></td><td></td><td align='center'>0</td><td align='center'>0</td><td align='center' class="blue">2</td><td align='center' >2</td><td align='center' >0.031 [min]</td></tr>
+</table>
+
+<p><br><p>
+
+<h2>Summary</h2>
+<table class="summaryTable" border=1>
+<tr><th colspan=11>Summary</th></tr>
+<tr><th rowspan=2>Test name</th><th rowspan=2>Exec. name</th><th colspan=3>Pattern match</th><th colspan=5>response status</th><th rowspan=2>ignored</th></tr>
+<tr><th>matched</th><th>mismatched</th><th>MISSING<br>pattern</th><th>success</th><th>failure</th><th>pending</th><th>partial</th><th>unknown</th></tr>
+<tr class="odd"><td><a href='#01'>RE123_110027_FC123_110778_UDM/SIDF_prohibit_Null_scheme</a></td><td><a href='#21.5\prohibitNullScheme01'>21.5\prohibitNullScheme</a></td><td align='center'>0</td><td align='center'>0</td><td align='center' class="blue">2</td><td align='center' >2</td><td align='center'>0</td><td align='center'>0</td><td align='center'>0</td><td align='center'>0</td><td align='center'>0</td></tr>
+<tr><td align="center"><b>Sum</b></td><td></td><td align='center'>0</td><td align='center'>0</td><td align='center' >2</td><td align='center' >2</td><td align='center'>0</td><td align='center'>0</td><td align='center'>0</td><td align='center'>0</td><td align='center'>0</td></tr>
+</table>
+
+<p><br><p>
+
+<h2>Detailed results</h2>
+
+
+<div class="testCase">
+<a name="01"></a><h2>RE123_110027_FC123_110778_UDM/SIDF_prohibit_Null_scheme</h2>
+<table class="caseDesc">
+<tr><th class="tcTitle" colspan=2>Test Case Description</th></tr>
+<tr><td class="tcTitle">Test Case Name</td><td>RE123_110027_FC123_110778_UDM/SIDF_prohibit_Null_scheme</td></tr>
+<tr><td class="tcTitle">Test Case ID</td><td>01</td></tr>
+<tr><td class="tcTitle">Author</td><td>Sai Priyanka Penumaka</td></tr>
+<tr><td class="tcTitle">Feature</td><td>RE123_110027_FC123_110778_UDM/SIDF_prohibit_Null_scheme</td></tr>
+<tr><td class="tcTitle">Prerequisities</td><td class="preformatted">
+				1) PGW should be up and running
+			</td></tr>
+<tr><td class="tcTitle">Execution</td><td class="preformatted">
+				0) Enable FF and instance update.
+				1) Create Subscriber with udm5gData and protectionScheme.
+				2) Modify operation on the subscriber by changing the value of prohibitNullScheme.
+				3) Remove protectionScheme.
+				4) Delete Subscriber.
+				5) Disable FF and instance update.
+			</td></tr>
+<tr><td class="tcTitle">Expected result</td><td class="preformatted">
+                All steps should be successful
+			</td></tr>
+<tr><td class="tcTitle">Expected result type</td><td class="preformatted">Success</td></tr>
+</table>
+
+<a name='21.5\prohibitNullScheme01'></a><h3>21.5\prohibitNullScheme</h3><table border=1>
+<tr><th></th><th>Request name</th><th>Pattern match</th><th>Response status</th><th>Diff</th><th>Duration [s]</th><th>Error message</th><th>Hint</th></tr>
+<tr><td><b>c</b></td><td style='white-space: nowrap'><a href='..\test-cases\21.5\prohibitNullScheme\requests\00_delete_sub.udmsub.xml' target='_blank'>00_delete_sub.udmsub</a></td><td align='center' class="blue">MISSING pattern</td><td align='center'><a href='..\test-cases\21.5\prohibitNullScheme\responses\00_delete_sub.udmsub.response.2021-08-09_12-32-10-117' target='_blank'>success</a></td><td>N/A</td><td align='center' >0.957</td><td class="spacer"></td><td></td></tr>
+<tr><td><b>c</b></td><td style='white-space: nowrap'><a href='..\test-cases\21.5\prohibitNullScheme\requests\01_S_Create_5g_sub.udmsub.xml' target='_blank'>01_S_Create_5g_sub.udmsub</a></td><td align='center' class="blue">MISSING pattern</td><td align='center'><a href='..\test-cases\21.5\prohibitNullScheme\responses\01_S_Create_5g_sub.udmsub.response.2021-08-09_12-32-10-117' target='_blank'>success</a></td><td>N/A</td><td align='center' >0.896</td><td class="spacer"></td><td></td></tr>
+</table>
+
+<p>
+
+</div>
+<br><div class="version">ART-T version: 1.3.8<br>Authors: ONENDS BTS EXP teams<br></div>
+</body>
+</html>
